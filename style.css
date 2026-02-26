@@ -237,17 +237,6 @@ body{
   cursor: pointer;
 }
 
-.agent-view-cont{
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.agent-view{
-  color: white;
-  font-size: 27px;
-}
-
-
 /* RE IMAGE */
 
 .re-image-cont{
@@ -255,17 +244,97 @@ body{
   justify-content: center;
   align-items: center;
   width: 85%;
-  margin-top: 20px;
+  margin-top: 30px;
+  gap: 1px;
 }
 
 .re-image-cont img {
   width: 330px;
   height: 200px;
+  border-radius: 2px;
 }
 
+/* RE TEST CREDENTIALS */
 
+.re-test-credentials p{
+  color: white;
+  font-size: 13px;
+  text-align: center;
+}
+.b-portfolio-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  width: 85%;
+}
+.cms-title{
+  position: relative;
+  /*left: 140px;*/
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+.cms-description{
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
 
+.cms-view-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 85%;
+}
+.pub-cms-preview-btn{
+  color: white;
+  border: solid 1.5px grey;
+  border-radius: 3px;
+  padding: 2px 7px 2px 7px;
+  text-decoration: none;
+}
+.pub-cms-preview-btn:hover{
+  color: white;
+  border-radius: 3px;
+  padding: 2px 7px 2px 7px;
+  background-color: #02ad0d;
+  border-color: #02ad0d;
+  cursor: pointer;
+}
 
+.admin-cms-preview-btn{
+  color: white;
+  border: solid 1.5px grey;
+  border-radius: 3px;
+  padding: 2px 7px 2px 7px;
+  text-decoration: none;
+}
+.admin-cms-preview-btn:hover{
+  color: white;
+  border-radius: 3px;
+  padding: 2px 7px 2px 7px;
+  background-color: #02ad0d;
+  border-color: #02ad0d;
+  cursor: pointer;
+}
+
+.cms-image-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin-top: 30px;
+  gap: 1px;
+}
+
+.cms-image-cont img {
+  width: 330px;
+  height: 200px;
+  border-radius: 2px;
+}
 
 
 
