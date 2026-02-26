@@ -157,6 +157,8 @@ body{
 }
 .b-portfolio-1{
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   flex-direction: column;
   width: 85%;
@@ -166,24 +168,22 @@ body{
   /*left: 140px;*/
   color: white;
   font-size: 25px;
+  text-align: center;
 }
 .realestate-description{
   color: white;
   font-size: 12px;
+  text-align: center;
 }
 
 /*REAL ESTATE USER VIEW CONT*/  
 
-.users-view-cont{
-  display: flex;
-  width: 85%;
-  gap: 40%;
-}
-
 .pub-view-cont{
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 20px;
+  width: 85%;
 }
 .pub-view{
   color: white;
@@ -191,7 +191,7 @@ body{
 }
 .pub-view-preview-btn{
   color: white;
-  border: solid 1.5px #07d915;
+  border: solid 1.5px grey;
   border-radius: 3px;
   padding: 2px 7px 2px 7px;
   text-decoration: none;
@@ -201,6 +201,39 @@ body{
   border-radius: 3px;
   padding: 2px 7px 2px 7px;
   background-color: #02ad0d;
+  border-color: #02ad0d;
+  cursor: pointer;
+}
+
+.agent-view-preview-btn{
+  color: white;
+  border: solid 1.5px grey;
+  border-radius: 3px;
+  padding: 2px 7px 2px 7px;
+  text-decoration: none;
+}
+.agent-view-preview-btn:hover{
+  color: white;
+  border-radius: 3px;
+  padding: 2px 7px 2px 7px;
+  background-color: #02ad0d;
+  border-color: #02ad0d;
+  cursor: pointer;
+}
+
+.broker-view-preview-btn{
+  color: white;
+  border: solid 1.5px grey;
+  border-radius: 3px;
+  padding: 2px 7px 2px 7px;
+  text-decoration: none;
+}
+.broker-view-preview-btn:hover{
+  color: white;
+  border-radius: 3px;
+  padding: 2px 7px 2px 7px;
+  background-color: #02ad0d;
+  border-color: #02ad0d;
   cursor: pointer;
 }
 
@@ -213,65 +246,22 @@ body{
   color: white;
   font-size: 27px;
 }
-.agent-view-preview-btn{
-  color: white;
-  border: solid 1.5px #07d915;
-  border-radius: 3px;
-  padding: 2px 7px 2px 7px;
-  text-decoration: none;
-}
-.agent-view-preview-btn:hover{
-  color: white;
-  border-radius: 3px;
-  padding: 2px 7px 2px 7px;
-  background-color: #02ad0d;
-  cursor: pointer;
-}
 
 
+/* RE IMAGE */
 
-
-
-.re-public-agent-image-cont{
+.re-image-cont{
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 85%;
-  flex-direction: column;
-  gap: 5px;
+  margin-top: 20px;
 }
 
-.top-image-cont{
-  display: flex;
-  height: 250px;
-  gap: 5px;
+.re-image-cont img {
+  width: 330px;
+  height: 200px;
 }
-
-.top-re-publicimg{
-  width: 25%;
-  border-top-left-radius: 10px;
-  
-}
-.top-re-public2img{
-  width: 25%;
-  border-top-right-radius: 10px;
-}
-
-
-.bot-image-cont{
-  display: flex;
-  height: 250px;
-  gap: 5px;
-}
-
-.bot-re-publicimg{
-  width: 25%;
-  border-bottom-left-radius: 10px;
-  
-}
-.bot-re-public2img{
-  width: 25%;
-  border-bottom-right-radius: 10px;
-}
-
 
 
 
