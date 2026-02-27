@@ -96,14 +96,14 @@ body{
   align-items: center;
   background-color: #1e1e1e;
   width: 100%;
-  height: 310px;
+  height: 250px;
   font-family: "Saira Condensed", sans-serif;
   font-weight: 200;
   font-style: normal;
 }
 
 .m-services{
-  font-size: 30px;
+  font-size: 20px;
   color: white;
 }
 
@@ -111,31 +111,56 @@ body{
   display: flex;
   gap: 170px;
   font-size: 25px;
-  color: white;
+  color: #E0E0E0;
 }
 
-.m-services-list-lowcodelogo{
-  width: 200px;
-  height: 150px;
+.m-services-list-1 p{
+  font-size: 12px;
 }
-/* 
-.lowcode-text{
-  position: absolute;
-  margin-top: 0px;
-  bottom: 20px;
+
+.m-services-list-jslogo{
+  width: 110px;
+  height: 110px;
 }
-  */
-.m-services-list-databaselogo{
-  width: 200px;
-  height: 150px;
+
+.m-services-list-2{
+  font-size: 12px;
+  text-align: center;
 }
-.m-services-list-automationlogo{
-  width: 200px;
-  height: 150px;
+
+.m-services-list-htmllogo{
+  width: 120px;
+  height: 120px;
 }
-.m-services-list-integrationlogo{
-  width: 200px;
-  height: 150px;
+
+.m-services-list-3{
+  font-size: 12px;
+  text-align: center;
+}
+
+.m-services-list-csslogo{
+  width: 120px;
+  height: 120px;
+}
+
+.m-services-list-4{
+  font-size: 12px;
+  text-align: center;
+}
+
+.m-services-list-gitlogo{
+  width: 120px;
+  height: 120px;
+}
+
+.m-services-list-5{
+  font-size: 12px;
+  text-align: center;
+}
+
+.m-services-list-vsclogo{
+  width: 120px;
+  height: 120px;
 }
 
 /* BOTTOM CONATINER*/
@@ -146,7 +171,7 @@ body{
   align-items: center;
   background-color: #040608;
   width: 100%;
-  height: 2000px;
+  height: 1300px;
   font-family: "Saira Condensed", sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -260,6 +285,7 @@ body{
   color: white;
   font-size: 13px;
   text-align: center;
+  font-style: italic;
 }
 .b-portfolio-2{
   display: flex;
@@ -335,9 +361,74 @@ body{
   height: 200px;
   border-radius: 2px;
 }
+.cms-test-credentials p{
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  font-style: italic;
+}
 
+/* Caspio Services */
 
+.cas-container{
+  background-image: url('Images/caspio_logo_icon_168448.png');
+  background-color: #1e1e1e;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  margin-top: 22px;
+}
 
+.cas-bgcolor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*background-color: rgba(2, 173, 13, 0.3);*/
+  background-color: rgba(30, 30, 30, 0.5);
+  width: 100%;
+  height: 300px;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  /*background: linear-gradient(90deg,rgba(28, 89, 92, 0.4) 0%, rgba(27, 169, 194, 0.4) 64%, rgba(95, 192, 212, 0.4) 87%);*/
+  
+}
+
+.c-services{
+  font-size: 25px;
+  color: white;
+}
+
+.c-services-list{
+  display: flex;
+  gap: 170px;
+  font-size: 25px;
+  color: white;
+}
+
+.c-services-list-lowcodelogo{
+  width: 200px;
+  height: 150px;
+}
+/* 
+.lowcode-text{
+  position: absolute;
+  margin-top: 0px;
+  bottom: 20px;
+}
+  */
+.c-services-list-databaselogo{
+  width: 200px;
+  height: 150px;
+}
+.c-services-list-automationlogo{
+  width: 200px;
+  height: 150px;
+}
+.c-services-list-integrationlogo{
+  width: 200px;
+  height: 150px;
+}
 
 
 
